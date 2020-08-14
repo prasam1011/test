@@ -1,18 +1,21 @@
 * {box-sizing: border-box;}
-body {margin: 0px;}
+h1 {text-align: center;
+     color:#301c04;}
+body {margin: 0px;
+      float:right;}
 .box { width: 100%;
      }
-.style{background-color: pink;
+.style{background-color:#87CEEB;
       }
  #back {background-color:yellow; 
-        color: blue;}
- #front {background-color:magenta; 
-        color:yellow;}
- #side {background-color: brown; 
-        color: green;}
+        color:black;}
+ #front {background-color:#00FF00; 
+        color:black;}
+ #side {background-color:#EB592D; 
+        color:black;}
 
  h2 {text-align: center;
-    border: 2px solid black;
+    border: 1px solid black;
     width: 100px;
     float:right;
     margin: 0px}
@@ -27,6 +30,7 @@ body {margin: 0px;}
     border: 1px solid black;
     margin:20px;
 	} 
+	body {margin-left: 90px; }
     .col-lg-1 {
     	width: 8.33%;
     }
@@ -71,10 +75,9 @@ body {margin: 0px;}
     float: left;
     border: 1px solid black;
     margin: 20px;
-    margin-left: auto;
 	} 
-	#space{margin-left: 50px;}
-	#point{margin-left: 5px;}
+	#space{margin-left: 40px;}
+	#point{margin-left: 20px;}
     .col-md-1 {
     	width: 8.33%;
     }
@@ -116,10 +119,11 @@ body {margin: 0px;}
 	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, 
 	.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9,
 	.col-sm-10, .col-sm-11, .col-sm-12 {
-    float: left;
+    float: center;
     border: 1px solid black;
-    margin:10px;
+    margin-bottom: 10px;
 	} 
+	#shell {padding: 40px;}
     .col-sm-1 {
     	width: 8.33%;
     }
