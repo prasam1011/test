@@ -18,9 +18,11 @@ section{border: 2px solid black;
  #h3{background-color:#EB592D;
      }
 h2 {border: 2px solid black;
+	text-align: center;
     float: right;
     margin-top: 0px;
-    padding: 3px; 
+    padding: 3px;
+    width: 150px; 
    }
 p{clear: right;
 	padding: 10px;
